@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiCore", "PokeApiCore\PokeApiCore.csproj", "{56F78FCC-FD96-47F5-9B72-9BF842DC816E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeApiCore", "PokeApiCore\PokeApiCore.csproj", "{56F78FCC-FD96-47F5-9B72-9BF842DC816E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiConsole", "PokeApiConsole\PokeApiConsole.csproj", "{0FE6CA7D-7CCA-4F41-87CE-26E594F3777A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeApiConsole", "PokeApiConsole\PokeApiConsole.csproj", "{0FE6CA7D-7CCA-4F41-87CE-26E594F3777A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeApiWebsite", "PokeApiWebsite\PokeApiWebsite.csproj", "{7D9092BF-242D-4B47-B640-F684CEC190C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0FE6CA7D-7CCA-4F41-87CE-26E594F3777A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FE6CA7D-7CCA-4F41-87CE-26E594F3777A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE6CA7D-7CCA-4F41-87CE-26E594F3777A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9092BF-242D-4B47-B640-F684CEC190C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9092BF-242D-4B47-B640-F684CEC190C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9092BF-242D-4B47-B640-F684CEC190C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9092BF-242D-4B47-B640-F684CEC190C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
