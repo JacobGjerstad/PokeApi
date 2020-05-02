@@ -38,9 +38,10 @@ namespace PokeApiWebsite.Controllers
                 Name = result.Name,
                 Height = result.Height.ToString(),
                 Weight = result.Weight.ToString(),
-                PokedexImageUrl = result.sprites.FrontDefault,
+                PokedexImageUrl = result.Sprites.FrontDefault,
                 MoveList = resultMoves
             };
+            entry.Name = entry.Name.FirstCharToUpper();
 
             return View(entry);
         }

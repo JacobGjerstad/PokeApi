@@ -35,7 +35,7 @@ namespace PokeApiCore
         public string location_area_encounters { get; set; }
         public Move[] moves { get; set; }
         public Species species { get; set; }
-        public Sprites sprites { get; set; }
+        public Sprites Sprites { get; set; }
         public Stat[] stats { get; set; }
         public Type[] types { get; set; }
     }
